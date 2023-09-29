@@ -1,0 +1,49 @@
+1) Promt user for input
+    * use get_int to ask for an int as input
+    * if input is invalid, re-promt user for another input
+        * Use a do/while loop!
+        * Use a do while loop vs. just a while loop because you want to prompt the user at least once and if it is invalid, you will prompt the user again
+        * The integer has to be a positive number between 1-8
+          * Boolean expression:
+          * x < 1 || x > 8
+
+2) Build left aligned pyramid
+    * Use a for loop
+      1) Print hashes #
+      2) Print a new line up until the entire height of that pyramid
+
+3) Build right aligned pyramid with dots and hashes (. #)
+    * Use a for loop
+      1) Print dots
+      2) Print hashes
+      3) Print a new line
+How many dots and how many hashes?
+  Depends on:
+  * Height of pyramid
+  * Row number
+
+4) Build right aligned pyramid with no dots, only hashes
+
+
+
+DO WHILE LOOP
+do {
+  // something happens / this will happen, until the condition is no longer true
+}
+while (condition);
+
+////////////////////
+
+WHILE LOOP
+while (condition)
+{
+  // something happens
+} 
+
+////////////////////
+
+FOR LOOP
+for (initialization; condition (boolean), update)
+{
+  // code to repeat
+}
